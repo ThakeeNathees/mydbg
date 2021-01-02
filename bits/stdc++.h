@@ -1,25 +1,31 @@
 #pragma once
 
 // This file is a proxy for <bits/stdc++.h>
-// https://gist.github.com/Einstrasse/ac0fe7d7450621a39364ed3b05cacd11
-// Add more headers when needed
 
 #include <assert.h>
-#include <limits.h>
+#include <chrono>
 #include <iostream>
 #include <functional>
+#include <fstream>
+#include <iostream>
+#include <istream>
+#include <limits.h>
 #include <sstream>
 #include <string>
 #include <vector>
-#include <chrono>
 
 // Data structures.
+#include <algorithm>
+#include <deque>
+#include <map>
+#include <queue>
+#include <set>
+#include <stack>
 #include <string>
 #include <vector>
-#include <stack>
-#include <map>
-#include <set>
+
+#if __cplusplus >= 201103L
+#include <tuple>
 #include <unordered_map>
 #include <unordered_set>
-#include <queue>
-#include <deque>
+#endif
